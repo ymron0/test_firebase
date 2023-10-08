@@ -1,6 +1,18 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:test_firebase/firebase_options.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
+  FirebaseAnalytics analytics = FirebaseAnalytics.instance;
+  await analytics.logEvent(name: 'App_is_starting');
+
   runApp(const MyApp());
 }
 

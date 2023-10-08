@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1030836476287",
+    "project_id": "test-firebase-a7964",
+    "storage_bucket": "test-firebase-a7964.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030836476287:android:8a162803cef5ad897ea24a",
+        "android_client_info": {
+          "package_name": "ch.ymron.test_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN8dzqkK0VrJZJJ6tBd0NvIuOyUc03VLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
