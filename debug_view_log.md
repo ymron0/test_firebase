@@ -1,0 +1,13 @@
+Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+√  Built build\app\outputs\flutter-apk\app-debug.apk.
+Connecting to VM Service at ws://127.0.0.1:65106/nzPxNI7ciRY=/ws
+D/CompatibilityChangeReporter(32150): Compat change id reported: 183155436; UID 10197; state: ENABLED
+I/FirebaseApp(32150): Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+I/FirebaseCrashlytics(32150): Initializing Firebase Crashlytics 18.4.3 for ch.ymron.test_firebase
+D/CompatibilityChangeReporter(32150): Compat change id reported: 247079863; UID 10197; state: DISABLED
+D/FirebaseSessions(32150): Registering Sessions SDK subscriber with name: CRASHLYTICS, data collection enabled: true
+D/FirebaseSessions(32150): Data Collection is enabled for at least one Subscriber
+D/FirebaseSessions(32150): Sessions SDK disabled. Events will not be sent.
+I/FirebaseCrashlytics(32150): No version control information found
+E/FA      (32150): Missing google_app_id. Firebase Analytics disabled. See https://goo.gl/NAOOOI
+V/FA      (32150): Inactivity, disconnecting from the service

@@ -99,3 +99,20 @@ I/TRuntime.CctTransportBackend(26699): Status Code: 200
 But in my Crashlytics console, I can see the errors. So that means that Crashlytics works!
 
 But I point out that my `build.gradle` files have, once again, not been modified. Not sure if that's normal. I get the same with `firebase_firestore` and `firebase_auth`. They work but `flutterfire configure` never modifies `build.gradle`.
+
+## Troubleshooting
+After communication with Angela from Firebase, here is what I did:
+The app-level `build.gradle` file was updated with:
+```
+dependencies {
+    implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
+    implementation("com.google.firebase:firebase-analytics")
+}
+```
+The `AndroidManifest.xml` was upgraded with `<meta-data android:name="firebase_analytics_collection_enabled" android:value="true" />`. Before that, there was no such line.
+
+Verbose log was tested. The result is [here](/verbose_log.md).
+
+Debug view was tested. The result is [here](/debug_view_log.md).
+
+The firebase packages at up to date.
