@@ -111,8 +111,8 @@ dependencies {
 ```
 The `AndroidManifest.xml` was upgraded with `<meta-data android:name="firebase_analytics_collection_enabled" android:value="true" />`. Before that, there was no such line.
 
-Verbose log was tested. The result is [here](/verbose_log.md).
+Verbose log was tested. The result is [here](/verbose_log.log).
 
-Debug view was tested. The result is [here](/debug_view_log.md).
+Debug view was tested. The result is [here](/debug_view_log.log).
 
 The firebase packages at up to date.
