@@ -2,6 +2,9 @@ plugins {
     id "com.android.application"
     id "kotlin-android"
     id "dev.flutter.flutter-gradle-plugin"
+    // For google-services plugin, I also tried
+    // with the "apply plugin" statement below but it makes no change
+    id "com.google.gms.google-services"
 }
 
 def localProperties = new Properties()
@@ -21,6 +24,8 @@ def flutterVersionName = localProperties.getProperty('flutter.versionName')
 if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
+
+// apply plugin: 'com.google.gms.google-services'
 
 android {
     namespace "ch.ymron.test_firebase"

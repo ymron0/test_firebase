@@ -23,6 +23,25 @@
           "other_platform_oauth_client": []
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030836476287:android:79d19904593ae7e37ea24a",
+        "android_client_info": {
+          "package_name": "io.flutter.plugins.firebase.analytics.example"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN8dzqkK0VrJZJJ6tBd0NvIuOyUc03VLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
     }
   ],
   "configuration_version": "1"
