@@ -55,10 +55,19 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
+    logEvent();
     setState(() {
       _counter++;
     });
     throw Exception();
+  }
+
+  logEvent() async {
+    print('event logged');
+    FirebaseAnalytics analytics = FirebaseAnalytics.instance;
+    await analytics.logEvent(
+        name: 'custom_button',
+        parameters: {'sender': 'value_sender', 'receiver': 'value_receiver'});
   }
 
   @override
